@@ -40,5 +40,11 @@
       "repository":"vendor_qcom_opensource_commonsys-intf_display",
       "target_path":"vendor/qcom/opensource/commonsys/display-intf",
       "branch":"caf-11-sm8150"
+   },
+   {
+      "remote":"github",
+      "repository":"LineageOS/android_external_ant-wireless_antradio-library",
+      "target_path":"external/ant-wireless/antradio-library",
+      "branch":"lineage-18.1"
    }
 ]
