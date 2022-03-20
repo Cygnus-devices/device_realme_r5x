@@ -34,7 +34,10 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/commonsys-intf/display \
-    vendor/qcom/opensource/wfd-commonsys
+    vendor/qcom/opensource/wfd-commonsys \
+    hardware/qcom/media \
+    hardware/qcom/display \
+    vendor/qcom/opensource/audio-hal/primary-hal
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
@@ -240,7 +243,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0_system \
-    android.hidl.manager@1.0
+    android.hidl.manager@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.manager@1.0.vendor
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
