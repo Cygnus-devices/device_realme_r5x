@@ -18,10 +18,10 @@
       "branch":"caf-12"
    },
    {
-      "remote":"github",
-      "repository":"erwinabs/hardware_qcom_audio",
+      "remote":"Cygnus-devices",
+      "repository":"vendor_qcom_opensource_audio-hal_primary-hal",
       "target_path":"vendor/qcom/opensource/audio-hal/primary-hal",
-      "branch":"lineage-19.0-caf-sm8150"
+      "branch":"caf-12-sm8150"
    },
    {
       "remote":"Cygnus-devices",
